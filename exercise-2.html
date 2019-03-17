@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+    <div class="card">
+    <h5 class="card-header">MyCalculator</h5>
+        <div class="card-body">
+            <form name="form">
+                <input class="textview form" name="textview">
+            </form>
+            <table>
+                <tr>
+                    <td>
+                        <button class="pow" onclick="pow()"><i class="fa fa-superscript" aria-hidden="true"></i></button>
+                        <input type="button" value="C" class="lebar" style="margin-left: 4px; width: 50px; height: 50px; font-size: 25px;" onclick="c()">
+                        <input type="button" value="/" class="lebar" style="margin-left: 5px; width: 50px; height: 50px; font-size: 25px;" onclick="insert('/')">
+                        <button class="eraser" onclick="erase()"><i class="fa fa-eraser" aria-hidden="true"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="7" class="jarak lebar" onclick="insert(7)">
+                        <input type="button" value="8" class="jarak lebar" onclick="insert(8)">
+                        <input type="button" value="9" class="jarak lebar" onclick="insert(9)">
+                        <button class="kali" onclick="insert('*')"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" class="jarak lebar" onclick="insert(4)">
+                        <input type="button" value="5" class="jarak lebar" onclick="insert(5)">
+                        <input type="button" value="6" class="jarak lebar" onclick="insert(6)">
+                        <button class="minus" onclick="insert('-')"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" class="jarak lebar" onclick="insert(1)">
+                        <input type="button" value="2" class="jarak lebar" onclick="insert(2)">
+                        <input type="button" value="3" class="jarak lebar" onclick="insert(3)">
+                        <button class="plus" onclick="insert('+')"><i class="fa fa-plus" aria-hidden="true"></i></button>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1/x" class="seper" onclick="seper()">
+                        <input type="button" value="0" class="jarak lebar" onclick="insert(0)">
+                        <input type="button" value="." class="jarak" style="padding-right: 17px;" onclick="insert('.')">
+                        <input type="button" value="=" style="padding-right: 9px; width: 50px; height: 50px; font-size: 25px;" onclick="hasil()"> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+

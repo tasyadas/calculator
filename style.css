@@ -1,0 +1,73 @@
+.card{
+    background: linear-gradient(45deg, rgba(5, 26, 117, 0.904) 0%, rgba(24, 216, 219, 0.5) 100%) no-repeat;
+    margin-top: 5%;
+    margin-left: 28em;
+    width: 20em;
+    height: 29em;
+}
+
+table{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.jarak{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+
+}
+
+.kali{
+    padding-right: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.eraser{
+    margin-left: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.minus{
+    padding-right: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.plus{
+    padding-right: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.form{
+    width: 83%;
+    margin-left: 23px;
+    padding: 10px;
+}
+
+.lebar{
+    padding-right: 16px;
+}
+
+.pow{
+    margin-left: 3px;
+    width: 52px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.seper{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    padding-right: 16px;
+}
